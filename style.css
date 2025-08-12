@@ -14,6 +14,17 @@ body {
     align-items: center; 
     height: 100vh; 
     padding: 15px;
+    animation: load 0.4s ease;
+}
+
+/* site load animation */
+@keyframes load {
+    from {
+          opacity: 0;transform: translateY(-10px);
+    }
+    end {
+          opacity: 1;transform: translateY(0);
+    }
 }
 
 /* Weather container box */
@@ -79,6 +90,7 @@ button:hover {
 #weatherResult h2,p{
     animation: fade .3s ease;
 }
+
 @keyframes fade {
     from {
           opacity: 0;transform: translateY(-5px);
