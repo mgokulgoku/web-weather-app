@@ -74,10 +74,11 @@ button:hover {
     padding: 10px;
     line-height: 1.5; 
 }
+ 
+/* Animation for weather display */
 #weatherResult h2,p{
     animation: fade .3s ease;
 }
-
 @keyframes fade {
     from {
           opacity: 0;transform: translateY(-5px);
