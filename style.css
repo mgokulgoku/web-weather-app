@@ -74,6 +74,18 @@ button:hover {
     padding: 10px;
     line-height: 1.5; 
 }
+#weatherResult h2,p{
+    animation: fade .3s ease;
+}
+
+@keyframes fade {
+    from {
+          opacity: 0;transform: translateY(-5px);
+    }
+    end {
+          opacity: 1;transform: translateY(0);
+    }
+}
 
 /* Responsive design for small screens */
 @media (max-width: 480px) {
